@@ -24,8 +24,11 @@ public class Servlet2 extends HttpServlet {
             out.println("<title>Video</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<video src='"+session+"' type='video/mp4' />");
+            out.println("<video controls>");
+            out.println("<source src='"+session+"' type='video/mp4' />");
+            out.println("</video>");
             out.println("</body>");
             out.println("</html>");
+            
     }
 }
