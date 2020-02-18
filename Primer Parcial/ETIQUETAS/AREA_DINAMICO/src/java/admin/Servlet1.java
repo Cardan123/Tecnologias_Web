@@ -27,9 +27,12 @@ public class Servlet1 extends HttpServlet {//Modificador de clase (public), Enca
             out.println("</head>");
             out.println("<body>");
             out.println("<form method='get' action='Servlet2'>");
+            out.println("rect = recta Ejemplo de cordendas 0,0,82,126 <br /> ");
+            out.println("circle = circulo Ejemplo de cordendas 90,58,3 <br /> ");
             for (int i = 0; i < numeroi; i++) {
-                out.print("Texto del boton : <input type='text' name='reference"+i+"'/>");
-                out.print("Aleta de los botones: <input type='text' name='texto"+i+"'/><br/>");
+                out.print("Forma : <input type='text' name='reference"+i+"'/><br /> ");
+                out.print("Href : <input type='text' name='texto"+i+"'/><br/>");
+                out.print("Cordenadas : <input type='text' name='cordenadas_"+i+"'/><br/>");
             }
             out.print("<input type='submit'>");
             out.print("</form>");

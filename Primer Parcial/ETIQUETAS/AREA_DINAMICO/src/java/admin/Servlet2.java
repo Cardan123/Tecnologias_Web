@@ -28,9 +28,13 @@ public class Servlet2 extends HttpServlet {//Modificador de clase (public), Enca
             out.println("<title>Servlet Servlet1</title>");
             out.println("</head>");
             out.println("<body>");
+            out.println("<body>");
+            out.println("<img src='wp2553315.jpg' width='600' height='600' alt='Planets' usemap='#Areas'>");           
+            out.println("<map name='Areas'>");
             for (int i = 0; i < numeroi; i++) {
-                out.println("<button type='button' onclick='alert(\""+request.getParameter("texto"+i)+"\")'>"+request.getParameter("reference" + i)+"</button><br />");
+                out.println("<area shape='"+request.getParameter("reference"+i)+"' coords='"+request.getParameter("cordenadas_"+i)+"' href='"+request.getParameter("texto"+i)+"' alt=\"Sun\">");
             }
+            out.println("</map>");
             out.println("</body>");
             out.println("</html>");
         }
