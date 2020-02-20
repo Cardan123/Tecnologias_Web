@@ -38,7 +38,7 @@ public class Servlet2 extends HttpServlet {
                 out.println("<tr>");
                 for(int x = 0; x < columnas_i; x++){
                     nombrevideo = (String) session.getAttribute(("nombrevideo")+(i+x));
-                    out.println("<td><a href='" + request.getParameter("reference_"+i+"_"+x) + "'><img src='"+nombrevideo+"' alt='Descripción de la imagen'></a></td>");
+                    out.println("<td><a href='" + request.getParameter("reference_"+i+"_"+x) + "'><img src='"+nombrevideo+"' alt='Descripción de la imagen' width='100' height='100'></a></td>");
                 }
                 out.println("</tr>");
             }
