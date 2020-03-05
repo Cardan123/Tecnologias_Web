@@ -1,0 +1,11 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (EMPTY|anidado2|anidado)*>
+<!ELEMENT anidado (#PCDATA)>
+<!ELEMENT anidado2 (#PCDATA)>
+]>
+
+<raiz>
+    <anidado2>Ruben</anidado2>
+    <anidado></anidado>
+</raiz>

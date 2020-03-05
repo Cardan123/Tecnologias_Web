@@ -1,0 +1,16 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (anidado2,anidado)>
+<!ELEMENT anidado (a,b)>
+<!ELEMENT anidado2 ANY>
+<!ELEMENT a ANY>
+<!ELEMENT b ANY>
+]>
+
+<raiz>
+    <anidado2>Ruben</anidado2>
+    <anidado>	
+	<a>Pedro</a>
+	<b>Carlos</b>
+    </anidado>
+</raiz>
