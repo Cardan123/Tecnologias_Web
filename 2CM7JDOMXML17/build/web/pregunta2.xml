@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config><form-beans> </form-beans><form-bean name="ActionForm1" type="admin.ActionForm1" /></struts-config>
