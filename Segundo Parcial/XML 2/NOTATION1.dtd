@@ -1,0 +1,5 @@
+<!ELEMENT raiz (#PCDATA)>
+  <!NOTATION vrml PUBLIC "VRML 1.0">
+  <!ATTLIST raiz lang NOTATION (vrml) #REQUIRED>
+
+

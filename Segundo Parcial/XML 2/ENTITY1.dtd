@@ -1,0 +1,4 @@
+<!ELEMENT raiz (#PCDATA)>
+<!ENTITY writer "Donald Duck.">
+<!ENTITY copyright "Copyright W3Schools.">
+

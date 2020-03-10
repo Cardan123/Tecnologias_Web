@@ -1,0 +1,6 @@
+<!ELEMENT raiz (a,b)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ATTLIST raiz atributo1 CDATA #REQUIRED>
+<!ATTLIST b atributo3 IDREF #IMPLIED>
+<!ATTLIST a atributo2 ID #IMPLIED>

@@ -1,0 +1,5 @@
+<!ELEMENT raiz (#PCDATA)>
+  <!NOTATION jpg PUBLIC "JPG 1.0">
+  <!ATTLIST raiz lang NOTATION (jpg) #REQUIRED>
+
+

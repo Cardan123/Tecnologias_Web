@@ -1,0 +1,2 @@
+<!ELEMENT raiz (#PCDATA)>
+<!ATTLIST raiz atributo1 ID #IMPLIED>

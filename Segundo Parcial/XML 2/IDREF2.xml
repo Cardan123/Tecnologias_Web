@@ -1,0 +1,8 @@
+<!DOCTYPE raiz SYSTEM "IDREF2.dtd">
+
+<raiz atributo1="Opcion1">
+<a atributo2="NC"/>
+<b atributo3="OP"/>
+<c atributo4="UY"/>
+<d atributo5="NC"/>
+</raiz>

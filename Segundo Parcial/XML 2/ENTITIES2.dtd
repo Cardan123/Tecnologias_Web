@@ -1,0 +1,4 @@
+<!ELEMENT raiz (#PCDATA)>
+<!ENTITY clase "Tecnologias Web">
+
+

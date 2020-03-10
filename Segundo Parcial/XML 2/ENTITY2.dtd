@@ -1,0 +1,4 @@
+<!ELEMENT raiz (#PCDATA)>
+<!ENTITY profesor "Ruben Peredo">
+<!ENTITY clase "Tecnologias Web">
+

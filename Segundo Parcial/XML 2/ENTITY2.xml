@@ -1,0 +1,5 @@
+<!DOCTYPE raiz SYSTEM "ENTITY2.dtd">
+
+<raiz >
+&profesor;&clase;
+</raiz>

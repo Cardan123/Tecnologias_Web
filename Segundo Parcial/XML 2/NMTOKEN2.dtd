@@ -1,0 +1,3 @@
+<!ELEMENT raiz (#PCDATA)>
+<!ATTLIST raiz atributo1 NMTOKEN #FIXED "4">
+

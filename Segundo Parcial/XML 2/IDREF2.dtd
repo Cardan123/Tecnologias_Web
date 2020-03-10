@@ -1,0 +1,10 @@
+<!ELEMENT raiz (a,b,c,d)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ATTLIST raiz atributo1 CDATA #REQUIRED>
+<!ATTLIST a atributo2 ID #REQUIRED>
+<!ATTLIST b atributo3 ID #REQUIRED>
+<!ATTLIST c atributo4 ID #REQUIRED>
+<!ATTLIST d atributo5 IDREF #IMPLIED >
