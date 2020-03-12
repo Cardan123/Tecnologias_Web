@@ -19,8 +19,9 @@ public class ServletXML1 extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
+            
             String ruta="";
-            ruta = this.getServletContext().getRealPath("/");
+            ruta = this.getServletContext().getRealPath("/XML");
 		try
 		{
 			Element raiz = new Element("struts-config");
