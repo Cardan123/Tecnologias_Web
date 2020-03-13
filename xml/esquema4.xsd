@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="complejo1" >
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="atributo1" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+<xs:element name="raiz" type="complejo1" />
+</xs:schema>

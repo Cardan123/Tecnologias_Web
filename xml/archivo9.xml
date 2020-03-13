@@ -1,0 +1,8 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (#PCDATA)>
+<!ATTLIST raiz atributo1 CDATA #REQUIRED>
+]>
+<raiz atributo1="10">
+
+</raiz>

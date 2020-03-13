@@ -1,0 +1,8 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (#PCDATA)>
+<!ATTLIST raiz atributo1 (OPCION1|OPCION2|OPCION3) #REQUIRED>
+]>
+<raiz atributo1="OPCION1">
+
+</raiz>
